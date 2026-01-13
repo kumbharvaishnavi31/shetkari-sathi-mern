@@ -1,22 +1,18 @@
-# shetkari-sathi-mern
-An agriculture platform providing farming tips, market prices, government schemes and farmer–buyer connectivity
-# Shetkari Sathi 
+# Shetkari Sathi 🌾
 
-Shetkari Sathi is a full-stack MERN application designed to support farmers by
-providing crop solutions, real-time market prices, and a platform to connect
-with buyers.
+Shetkari Sathi is a MERN stack web application built to support farmers by
+providing crop solutions, market prices, and a buyer wishlist system.
 
 ## Features
-- Crop solution & guidance for farmers
-- Market price updates for agricultural products
-- Wishlist functionality for buyers
+- Crop solution and farming guidance
+- Market price information for crops
+- Wishlist feature for buyers
 - Farmer and buyer dashboards
-- Secure authentication system
-- Responsive UI
+- Responsive user interface
 
 ## Tech Stack
 Frontend:
-- React.js
+- React.js (Vite)
 - HTML
 - CSS
 - JavaScript
@@ -28,6 +24,10 @@ Backend:
 Database:
 - MongoDB
 
+## Project Structure
+- /src → React frontend
+- /backend → Node & Express backend
+
 ## Purpose
-Academic project focused on solving real-world
-agriculture problems using modern web technologies.
+Academic project / self-learning project focused on real-world agricultural problems.
+
