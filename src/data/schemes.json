@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Krishi Samruddhi Yojana",
+    "benefits": "₹5,000 crore / year for 5 years via DBT: infra, micro‑irrigation, organic & climate‑resilient farming, value‑chain support.",
+    "documents": "Aadhaar; 7/12 land record; bank a/c; AgriStack Farmer ID.",
+    "startDate": "FY 2025–26 (approx. Jul 2025)",
+    "endDate": "To be notified"
+  },
+  {
+    "name": "Mukhyamantri Saur Krushi Pump Yojana",
+    "benefits": "Up to ~95% subsidy for off‑grid solar irrigation pumps; daytime power.",
+    "documents": "Aadhaar; 7/12; water‑source proof; caste cert/NOC if applicable.",
+    "startDate": "Ongoing (since ~2019)",
+    "endDate": "No fixed deadline (phased)"
+  },
+  {
+    "name": "PM‑KUSUM (Solar)",
+    "benefits": "Up to ~90% support (60% subsidy + 30% loan); option to sell surplus power.",
+    "documents": "Aadhaar; land docs; pump/site details; NOC if joint land.",
+    "startDate": "Ongoing (since Mar 2019)",
+    "endDate": "Target‑based (open until targets met)"
+  },
+  {
+    "name": "PMFBY – Pradhan Mantri Fasal Bima Yojana",
+    "benefits": "Low‑premium crop insurance (Kharif 2%, Rabi 1.5%, Cash 5%); covers calamities & localised risks.",
+    "documents": "Land records; crop sowing details; bank/KCC proof (as per insurer).",
+    "startDate": "Seasonal (pre‑sowing)",
+    "endDate": "Seasonal cutoff – varies by district"
+  },
+  {
+    "name": "National Mission on Sustainable Agriculture (NMSA)",
+    "benefits": "Support for soil health, water conservation, and organic farming.",
+    "documents": "Aadhaar; soil test reports; land documents.",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "benefits": "State-specific development plan funding for agriculture & allied sectors.",
+    "documents": "Land record; bank details.",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "benefits": "Provides free soil health cards to farmers for balanced fertilizer use.",
+    "documents": "Land record; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "National Food Security Mission (NFSM)",
+    "benefits": "Improved crop productivity of rice, wheat, pulses, coarse cereals, and commercial crops.",
+    "documents": "Land record; crop plan",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY) – Pilot Extension",
+    "benefits": "Crop insurance coverage for more crops and regions in Maharashtra.",
+    "documents": "Aadhaar; crop sowing details; bank/KCC proof",
+    "startDate": "Ongoing",
+    "endDate": "Seasonal cutoff"
+  },
+  {
+    "name": "Paramparagat Krishi Vikas Yojana",
+    "benefits": "Promotion of organic farming through cluster approach.",
+    "documents": "Land records; Aadhaar; soil certificate",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+    "benefits": "Water use efficiency, irrigation infrastructure, and micro-irrigation support.",
+    "documents": "Land documents; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Sub-Mission on Agroforestry",
+    "benefits": "Financial assistance for planting trees on farmland and farm bunds.",
+    "documents": "Aadhaar; land documents",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "National Mission on Horticulture",
+    "benefits": "Subsidy for horticulture crops, post-harvest management & marketing.",
+    "documents": "Land documents; Aadhaar; bank details",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Market Intervention Scheme",
+    "benefits": "Price support for perishables like fruits & vegetables during distress.",
+    "documents": "Aadhaar; sale invoice",
+    "startDate": "As notified",
+    "endDate": "Seasonal"
+  },
+  {
+    "name": "PM-PRANAM",
+    "benefits": "Incentives for soil health & micronutrient use in Maharashtra.",
+    "documents": "Soil test report; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "National Agricultural Market (e-NAM)",
+    "benefits": "Digital platform for selling crops at competitive rates across markets.",
+    "documents": "Aadhaar; bank account; PAN",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Chief Minister Krushi Sanjivani Yojana",
+    "benefits": "Free soil testing and crop advisory for Maharashtra farmers.",
+    "documents": "Land record; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Maharashtra Organic Farming Scheme",
+    "benefits": "Subsidy for organic farming & certification support.",
+    "documents": "Aadhaar; land documents",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Water Resources Development Scheme",
+    "benefits": "Support for irrigation, check dams, and farm ponds.",
+    "documents": "Land records; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Maharashtra Crop Diversification Program",
+    "benefits": "Support for growing high-value crops and horticulture crops.",
+    "documents": "Land documents; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  },
+  {
+    "name": "Maharashtra Micro Irrigation Scheme",
+    "benefits": "Subsidy for drip & sprinkler irrigation to conserve water.",
+    "documents": "Land documents; Aadhaar",
+    "startDate": "Ongoing",
+    "endDate": "Continuous"
+  }
+]

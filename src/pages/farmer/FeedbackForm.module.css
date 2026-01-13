@@ -1,0 +1,221 @@
+.formContainer {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 18px;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 15px 35px rgba(46, 125, 50, 0.3);
+  margin: 40px auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  color: #2f6f2f;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Progress Bar */
+.progressbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.progressbar::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  right: 20px;
+  height: 5px;
+  background-color: #cde7c9;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.progressStep {
+  width: 30px;
+  height: 30px;
+  background-color: #cde7c9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.4s ease;
+}
+
+.progressStep.active {
+  background-color: #4caf50;
+}
+
+.progressStep:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  right: -40px;
+  width: 40px;
+  height: 5px;
+  background-color: #4caf50;
+  border-radius: 10px;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.progressStep.active:not(:last-child)::after {
+  opacity: 1;
+}
+
+/* Steps */
+.step {
+  display: none;
+  animation: fadeInStep 0.5s ease forwards;
+}
+
+.step.active {
+  display: block;
+}
+
+@keyframes fadeInStep {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3c763d;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1.5px solid #cde7c9;
+  margin-bottom: 25px;
+  background: #f9fff7;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4caf50;
+  outline: none;
+  background: #f0fff0;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons */
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  min-width: 120px;
+}
+
+button:hover:not(:disabled) {
+  background: linear-gradient(to right, #388e3c, #66bb6a);
+}
+
+button:disabled {
+  background: #a5d6a7;
+  cursor: not-allowed;
+}
+
+/* Submit */
+.submitBtnWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submitBtn {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.progressBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #a5d6a7, #66bb6a);
+  border-radius: 12px;
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+.btnText {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes spring {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.15);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1.07);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .btnGroup {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  button {
+    width: 100%;
+    min-width: unset;
+  }
+}

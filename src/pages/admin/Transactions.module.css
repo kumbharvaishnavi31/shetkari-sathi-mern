@@ -1,0 +1,192 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: #0066cc;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.header h1 svg {
+  margin-right: 10px;
+}
+
+.statsCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.statCard {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.statCard h3 {
+  color: #0066cc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #004d99;
+}
+
+.change {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #0073e6;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  background: #e6f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.filterGroup {
+  flex: 1;
+}
+
+.filterGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #004d99;
+}
+
+.filterGroup select,
+.filterGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cce5ff;
+  border-radius: 6px;
+  background: white;
+}
+
+.tableContainer {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #0066cc;
+  color: white;
+}
+
+th, td {
+  padding: 16px 15px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: #f5f9ff;
+}
+
+tbody tr:hover {
+  background: #e6f2ff;
+}
+
+.status {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.completed {
+  background: #e6f7ff;
+  color: #0066cc;
+}
+
+.pending {
+  background: #fff2cc;
+  color: #cc9900;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+}
+
+.btnPrimary {
+  background: #0066cc;
+  color: white;
+}
+
+.btnPrimary:hover {
+  background: #0052a3;
+}
+
+.btnOutline {
+  background: transparent;
+  border: 2px solid #0066cc;
+  color: #0066cc;
+}
+
+.btnOutline:hover {
+  background: #0066cc;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .statsCards {
+    grid-template-columns: 1fr;
+  }
+}

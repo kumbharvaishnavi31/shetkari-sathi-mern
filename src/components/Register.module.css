@@ -1,0 +1,182 @@
+:root {
+    --primary-green: #2E7D32;
+    --light-green: #8BC34A;
+    --dark-green: #1B5E20;
+    --leaf-green: #4CAF50;
+    --background: #f8f9fa;
+    --text-dark: #263238;
+    --text-light: #546E7A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.register {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(71, 161, 72, 0.56);
+}
+
+.formContainer {
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    padding: 40px;
+    width: 100%;
+    max-width: 520px;
+    border: 1px solid #e0f2e9;
+    position: relative;
+}
+
+.formContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, var(--light-green), var(--primary-green), var(--dark-green));
+}
+
+h2 {
+    color: var(--primary-green);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--light-green), var(--primary-green));
+    border-radius: 4px;
+}
+
+h2:hover::after {
+    width: 120px;
+    background: linear-gradient(90deg, rgb(2, 124, 22), #4bcd85);
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--text-dark);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #d1e7dd;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    color: var(--text-dark);
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+    border-color: var(--light-green);
+    box-shadow: 0 0 0 3px rgba(139, 195, 74, 0.2);
+    outline: none;
+    background-color: white;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 1px rgba(139, 195, 74, 0.3);
+    outline: none;
+    background-color: white;
+}
+
+.radioInline {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.radioInline input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, var(--light-green), var(--primary-green));
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submitBtn:hover {
+    background: linear-gradient(135deg, var(--primary-green), var(--dark-green));
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(46, 125, 50, 0.3);
+}
+
+.loginLink {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.loginLink a {
+    color: var(--primary-green);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.loginLink a:hover {
+    color: var(--dark-green);
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .formContainer {
+        padding: 30px 20px;
+        margin: 0 20px;
+    }
+
+    body {
+        background-image: none;
+        background-color: var(--background);
+    }
+}

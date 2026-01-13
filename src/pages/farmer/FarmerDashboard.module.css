@@ -1,0 +1,199 @@
+:root {
+  --kohlrabi-green: #6b8e23;
+  --apple-green: #8db600;
+  --spring-green: #00ff7f;
+  --pistachio: #93c572;
+  --dark-text: #2c3e2c;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #e0ffe0);
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, var(--kohlrabi-green), var(--apple-green));
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo i {
+  color: var(--spring-green);
+}
+
+.userBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.logoutBtn {
+  background: var(--spring-green);
+  color: #2c3e2c;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.logoutBtn:hover {
+  background: #fff;
+  color: var(--kohlrabi-green);
+}
+
+.userAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--pistachio);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Dashboard */
+.dashboardContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 20px 40px 20px; /* top padding for sticky header */
+}
+
+h2 {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff6e;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card i {
+  font-size: 38px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #ffffff;
+}
+
+/* .addcrop{
+  background-image: url(../../../public/addcrop.jpg);
+} */
+ .card:nth-child(1) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/addcrop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card:nth-child(2) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/tips.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(3) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/gov.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(4) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/market.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(5) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/myProduct.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(6) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/BuyerREquest.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(7) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/profile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card:nth-child(8) {
+  background:linear-gradient(rgba(168, 221, 168, 0.514), rgba(137, 170, 137, 0.527)), url("../../assets/feedback.jpg");
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 900px) {
+  .dashboardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboardContainer {
+    padding: 20px 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}

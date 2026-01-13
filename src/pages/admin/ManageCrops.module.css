@@ -1,0 +1,242 @@
+:root {
+  --primary: #2563eb; /* Main blue */
+  --primary-dark: #1e40af;
+  --accent: #3b82f6;
+  --light-blue: #e0f2fe;
+  --warning: #f59e0b;
+  --danger: #dc2626;
+  --light-danger: #fee2e2;
+  --background: #f8fafc;
+  --card-bg: #ffffff;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --radius: 12px;
+  --radius-sm: 6px;
+  --transition: all 0.3s ease;
+}
+
+/* 🧭 Page Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: 'Poppins', sans-serif;
+  background: var(--background);
+  min-height: 100vh;
+}
+
+/* 🔷 Header */
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.head h1 {
+  font-size: 2rem;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head i {
+  color: var(--accent);
+  font-size: 1.8rem;
+}
+
+/* ⚙️ Bulk Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(to right, #eff6ff, #e0f2fe);
+  padding: 15px 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.1);
+  margin-bottom: 25px;
+}
+
+.actions select {
+  padding: 8px 14px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  color: var(--primary-dark);
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: var(--transition);
+}
+
+.actions select:hover {
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.actions button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.actions button:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(30, 64, 175, 0.2);
+}
+
+/* 📊 Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.08);
+}
+
+th, td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: var(--primary);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+tr:hover {
+  background: #f0f9ff;
+  transition: var(--transition);
+}
+
+/* ✅ Status Badges */
+td.status {
+  font-weight: 600;
+}
+
+.status.Pending {
+  color: var(--warning);
+}
+
+.status.Approved {
+  color: var(--primary);
+}
+
+/* 🎯 Buttons */
+td button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+td button:first-child {
+  background: var(--light-blue);
+  color: var(--primary-dark);
+}
+
+td button:first-child:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.delete-btn {
+  background: var(--light-danger);
+  color: var(--danger);
+}
+
+.delete-btn:hover {
+  background: var(--danger);
+  color: white;
+}
+
+/* 🧩 Checkbox */
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* 🔘 Button Container */
+td {
+  vertical-align: middle;
+}
+
+td .button-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between buttons */
+  justify-content: flex-start;
+}
+
+/* 🎯 Buttons (same theme) */
+.button-group button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+/* Approve button */
+.button-group .approve-btn {
+  background: var(--light-blue);
+  color: var(--primary-dark);
+}
+
+.button-group .approve-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Delete button */
+.button-group .delete-btn {
+  background: var(--light-danger);
+  color: var(--danger);
+}
+
+.button-group .delete-btn:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+/*  Responsive */
+@media (max-width: 768px) {
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .head h1 {
+    font-size: 1.6rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  td button {
+    padding: 6px 10px;
+  }
+}

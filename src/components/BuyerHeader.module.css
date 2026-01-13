@@ -1,0 +1,141 @@
+:root {
+  --kohlrabi-green: #6b8e23;
+  --apple-green: #8db600;
+  --spring-green: #00ff7f;
+  --pistachio: #93c572;
+  --light-pistachio: #e2f0d9;
+  --light-bg: #f8faf8;
+  --dark-text: #2c3e2c;
+}
+
+.header {
+  background: linear-gradient(to right, var(--kohlrabi-green), var(--apple-green));
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo i {
+  color: var(--spring-green);
+  font-size: 28px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--pistachio);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navContainer {
+  padding: 0 30px;
+}
+
+.navMenu {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.navMenu::-webkit-scrollbar {
+  display: none;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  white-space: nowrap;
+  position: relative;
+}
+
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--spring-green);
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--spring-green);
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--spring-green);
+}
+
+.mobileMenuBtn {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mobileMenuBtn {
+    display: block;
+  }
+
+  .navMenu {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+  }
+
+  .activeMenu {
+    max-height: 500px;
+  }
+
+  .navLink {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .navLink.active::after {
+    display: none;
+  }
+}

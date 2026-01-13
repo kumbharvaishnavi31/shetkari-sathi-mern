@@ -1,0 +1,69 @@
+/* Base styles */
+.container {
+  max-width: 1000px;
+  margin: 80px auto 0;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-top: 2px solid #8db600;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Table */
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.productTable th,
+.productTable td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 14px 10px;
+}
+
+.productTable th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Highlight featured row */
+.featured {
+  background: #fffbe6;
+  font-weight: 600;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.editBtn {
+  background: #4caf50;
+  color: #fff;
+}
+
+.editBtn:hover {
+  background: #45a049;
+}
+
+.deleteBtn {
+  background: #f44336;
+  color: #fff;
+}
+
+.deleteBtn:hover {
+  background: #da190b;
+}

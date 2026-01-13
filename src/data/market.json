@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "crop": "Tomato",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "market": "Pune Market",
+    "min": 20,
+    "max": 40,
+    "avg": 30,
+    "unit": "kg",
+    "createdAt": "2025-10-10T00:00:00Z"
+  }
+]

@@ -1,0 +1,817 @@
+[
+  {
+    "category": "disease",
+    "title": "Powdery Mildew",
+    "problem": "White powdery spots on leaves and stems",
+    "causes": [
+      "High humidity and moderate temperatures",
+      "Poor air circulation",
+      "Over-fertilization with nitrogen",
+      "Susceptible crop varieties",
+      "Infected plant debris in soil"
+    ],
+    "chemical": [
+      "Sulfur-based fungicides",
+      "Triazole fungicides",
+      "Potassium bicarbonate sprays"
+    ],
+    "organic": [
+      "Neem oil spray",
+      "Baking soda solution",
+      "Garlic extract spray"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Leaf Rust",
+    "problem": "Orange or brown pustules on leaf surfaces",
+    "causes": [
+      "Fungal infection from Puccinia species",
+      "Warm, moist conditions",
+      "Dense planting",
+      "Infected seeds or plant residues",
+      "Weak or stressed plants"
+    ],
+    "chemical": [
+      "Copper fungicides",
+      "Carbendazim sprays",
+      "Triazole fungicides"
+    ],
+    "organic": [
+      "Neem oil treatment",
+      "Ash solution application",
+      "Compost tea spray"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Late Blight",
+    "problem": "Dark lesions on leaves and stems, rotting tubers",
+    "causes": [
+      "Phytophthora infestans infection",
+      "Cool and wet weather",
+      "Excessive irrigation",
+      "Poor crop rotation",
+      "Contaminated seeds"
+    ],
+    "chemical": [
+      "Mancozeb sprays",
+      "Metalaxyl fungicides",
+      "Chlorothalonil application"
+    ],
+    "organic": [
+      "Copper-based organic fungicides",
+      "Potassium bicarbonate spray",
+      "Neem oil"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Downy Mildew",
+    "problem": "Yellow patches on leaves, white fluffy growth underneath",
+    "causes": [
+      "High humidity",
+      "Poor drainage",
+      "Cool night temperatures",
+      "Susceptible varieties",
+      "Overcrowded planting"
+    ],
+    "chemical": [
+      "Metalaxyl fungicides",
+      "Mancozeb sprays",
+      "Copper hydroxide application"
+    ],
+    "organic": [
+      "Neem oil spray",
+      "Baking soda solution",
+      "Garlic extract"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Bacterial Leaf Spot",
+    "problem": "Small, water-soaked spots on leaves turning brown",
+    "causes": [
+      "Bacterial infection (Xanthomonas species)",
+      "Rain splash or irrigation",
+      "Contaminated seeds",
+      "Poor sanitation",
+      "Overcrowded plants"
+    ],
+    "chemical": [
+      "Copper-based bactericides",
+      "Streptomycin sprays",
+      "Copper hydroxide application"
+    ],
+    "organic": [
+      "Neem oil treatment",
+      "Compost tea",
+      "Baking soda solution"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Aphids",
+    "problem": "Small, soft-bodied insects sucking sap from leaves and stems",
+    "causes": [
+      "Infestation from neighboring plants",
+      "Warm, dry weather",
+      "Over-fertilization",
+      "Poor natural predator presence",
+      "Dense planting"
+    ],
+    "chemical": [
+      "Imidacloprid sprays",
+      "Acephate application",
+      "Neem-based insecticides"
+    ],
+    "organic": [
+      "Neem oil",
+      "Soap water spray",
+      "Ladybugs introduction"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Whiteflies",
+    "problem": "Tiny white insects on leaf undersides, causing yellowing",
+    "causes": [
+      "Warm, dry conditions",
+      "High insect population nearby",
+      "Lack of predators",
+      "Weakened plants",
+      "Over-fertilization"
+    ],
+    "chemical": [
+      "Imidacloprid sprays",
+      "Thiamethoxam application",
+      "Pyrethroid sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Sticky traps",
+      "Soap water spray"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Stem Borers",
+    "problem": "Holes in stems and wilting plants",
+    "causes": [
+      "Moth larvae infestation",
+      "Monoculture cropping",
+      "Stressed plants",
+      "Residue from previous crops",
+      "Poor field sanitation"
+    ],
+    "chemical": [
+      "Chlorantraniliprole sprays",
+      "Carbofuran application",
+      "Endosulfan sprays"
+    ],
+    "organic": [
+      "Neem seed powder application",
+      "Hand removal of larvae",
+      "Pheromone traps"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Fruit Fly",
+    "problem": "Larvae inside fruits causing rotting",
+    "causes": [
+      "Adult fruit fly laying eggs in fruits",
+      "Overripe fruits on plant",
+      "Lack of traps",
+      "Warm and humid conditions",
+      "Poor sanitation"
+    ],
+    "chemical": [
+      "Malathion sprays",
+      "Spinosad-based sprays",
+      "Lambda-cyhalothrin application"
+    ],
+    "organic": [
+      "Pheromone traps",
+      "Bagging fruits",
+      "Neem oil sprays"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Red Spider Mite",
+    "problem": "Tiny red mites causing leaf discoloration and webbing",
+    "causes": [
+      "Hot, dry conditions",
+      "Low humidity",
+      "Excessive dust",
+      "Overuse of nitrogen fertilizer",
+      "Lack of natural predators"
+    ],
+    "chemical": [
+      "Abamectin sprays",
+      "Dicofol application",
+      "Sulfur-based sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Garlic extract spray",
+      "Predatory mites release"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Nitrogen Deficiency",
+    "problem": "Yellowing of older leaves and stunted growth",
+    "causes": [
+      "Poor nitrogen content in soil",
+      "Excessive rain leaching nutrients",
+      "Continuous cropping without fertilization",
+      "Low organic matter in soil",
+      "High pH soil reducing nutrient uptake"
+    ],
+    "chemical": [
+      "Urea application",
+      "Ammonium nitrate",
+      "Calcium ammonium nitrate"
+    ],
+    "organic": [
+      "Compost application",
+      "Green manure",
+      "Animal manure"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Phosphorus Deficiency",
+    "problem": "Dark green leaves with purple tints, poor root development",
+    "causes": [
+      "Low phosphorus in soil",
+      "Cold or wet soil conditions",
+      "High calcium content",
+      "Acidic soil",
+      "Poor fertilization practices"
+    ],
+    "chemical": [
+      "Single superphosphate",
+      "Diammonium phosphate",
+      "Triple superphosphate"
+    ],
+    "organic": [
+      "Bone meal application",
+      "Compost with phosphorus-rich materials",
+      "Rock phosphate"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Potassium Deficiency",
+    "problem": "Yellowing edges of leaves, weak stems, reduced fruit quality",
+    "causes": [
+      "Low potassium in soil",
+      "Excessive nitrogen fertilization",
+      "Leaching due to heavy rains",
+      "Sandy soils",
+      "High magnesium or calcium interference"
+    ],
+    "chemical": [
+      "Potassium sulfate",
+      "Muriate of potash",
+      "Potassium nitrate"
+    ],
+    "organic": [
+      "Wood ash",
+      "Compost enriched with potash",
+      "Banana peel mulch"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Magnesium Deficiency",
+    "problem": "Interveinal chlorosis on older leaves",
+    "causes": [
+      "Low magnesium in soil",
+      "Acidic soils",
+      "High potassium or calcium levels",
+      "Excessive leaching",
+      "Poor organic matter"
+    ],
+    "chemical": [
+      "Epsom salt sprays",
+      "Magnesium sulfate application",
+      "Dolomite lime"
+    ],
+    "organic": [
+      "Compost addition",
+      "Green manure",
+      "Seaweed extract"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Anthracnose",
+    "problem": "Dark, sunken lesions on leaves, stems, and fruits",
+    "causes": [
+      "Fungal infection",
+      "Warm and wet weather",
+      "Poor air circulation",
+      "Infected seeds or plant debris",
+      "Weak plant immunity"
+    ],
+    "chemical": [
+      "Copper oxychloride sprays",
+      "Mancozeb application",
+      "Thiophanate-methyl"
+    ],
+    "organic": [
+      "Neem oil",
+      "Baking soda spray",
+      "Garlic extract spray"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Early Blight",
+    "problem": "Dark spots with concentric rings on leaves and stems",
+    "causes": [
+      "Alternaria solani infection",
+      "Warm and humid conditions",
+      "Infected seed tubers",
+      "Poor crop rotation",
+      "Overcrowded planting"
+    ],
+    "chemical": [
+      "Chlorothalonil sprays",
+      "Mancozeb application",
+      "Copper-based fungicides"
+    ],
+    "organic": [
+      "Neem oil",
+      "Compost tea spray",
+      "Potassium bicarbonate solution"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Cutworms",
+    "problem": "Young seedlings cut at soil level",
+    "causes": [
+      "Larvae feeding at night",
+      "Presence of weeds and plant debris",
+      "Overwatering",
+      "Dense planting",
+      "Lack of natural predators"
+    ],
+    "chemical": [
+      "Chlorpyrifos application",
+      "Carbaryl dusting",
+      "Diazinon sprays"
+    ],
+    "organic": [
+      "Hand-picking larvae",
+      "Neem seed powder",
+      "Beneficial nematodes release"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Mealybugs",
+    "problem": "White cottony masses on stems and leaves, causing stunted growth",
+    "causes": [
+      "High humidity",
+      "Infestation from neighboring plants",
+      "Weak plants",
+      "Over-fertilization",
+      "Poor air circulation"
+    ],
+    "chemical": [
+      "Imidacloprid sprays",
+      "Malathion application",
+      "Carbaryl sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Soap water spray",
+      "Release of ladybugs"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Iron Deficiency",
+    "problem": "Young leaves yellow with green veins (interveinal chlorosis)",
+    "causes": [
+      "High soil pH",
+      "Poor soil aeration",
+      "Excess phosphorus",
+      "Low organic matter",
+      "Waterlogged conditions"
+    ],
+    "chemical": [
+      "Iron chelate sprays",
+      "Ferrous sulfate application",
+      "Iron EDTA foliar sprays"
+    ],
+    "organic": [
+      "Compost addition",
+      "Seaweed extract",
+      "Leaf mold mulch"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Smut",
+    "problem": "Black powdery spores replacing grains or kernels",
+    "causes": [
+      "Fungal infection",
+      "Infected seeds",
+      "Warm, moist conditions",
+      "Poor sanitation",
+      "Susceptible crop varieties"
+    ],
+    "chemical": [
+      "Carbendazim seed treatment",
+      "Thiram application",
+      "Copper fungicides"
+    ],
+    "organic": [
+      "Hot water seed treatment",
+      "Neem cake application",
+      "Crop rotation"
+    ]
+  },
+
+  {
+    "category": "disease",
+    "title": "Scab",
+    "problem": "Rough, corky lesions on fruits or tubers",
+    "causes": [
+      "Bacterial or fungal infection",
+      "Warm and humid conditions",
+      "Poor soil drainage",
+      "Infected seeds or tubers",
+      "High soil pH"
+    ],
+    "chemical": [
+      "Copper-based fungicides",
+      "Streptomycin sprays",
+      "Thiram application"
+    ],
+    "organic": [
+      "Neem oil spray",
+      "Compost tea",
+      "Crop rotation"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Fusarium Wilt",
+    "problem": "Yellowing leaves, wilting, and plant death",
+    "causes": [
+      "Fungal infection (Fusarium species)",
+      "Contaminated soil",
+      "Poor crop rotation",
+      "Waterlogged conditions",
+      "Weak plant varieties"
+    ],
+    "chemical": [
+      "Carbendazim soil treatment",
+      "Thiophanate-methyl",
+      "Fungicide drenches"
+    ],
+    "organic": [
+      "Neem cake soil amendment",
+      "Trichoderma-based biofungicides",
+      "Compost addition"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Verticillium Wilt",
+    "problem": "Leaves wilt and turn yellow, vascular browning",
+    "causes": [
+      "Fungal infection (Verticillium species)",
+      "Infested soil",
+      "Poor drainage",
+      "Susceptible varieties",
+      "Continuous cropping"
+    ],
+    "chemical": [
+      "Fungicide soil drench",
+      "Carbendazim application",
+      "Thiophanate-methyl"
+    ],
+    "organic": [
+      "Soil solarization",
+      "Neem cake addition",
+      "Trichoderma biofungicide"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Bacterial Wilt",
+    "problem": "Sudden wilting without yellowing, bacterial ooze from stem",
+    "causes": [
+      "Ralstonia solanacearum infection",
+      "Contaminated tools",
+      "Infected soil",
+      "Warm and moist soil",
+      "Poor drainage"
+    ],
+    "chemical": [
+      "Copper-based bactericides",
+      "Antibiotic sprays (streptomycin)",
+      "Fumigation in severe cases"
+    ],
+    "organic": [
+      "Neem cake soil amendment",
+      "Compost addition",
+      "Crop rotation"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Thrips",
+    "problem": "Tiny insects causing silvering and curling of leaves",
+    "causes": [
+      "Infestation from neighboring plants",
+      "Hot and dry conditions",
+      "Lack of natural predators",
+      "Weak plants",
+      "Dense planting"
+    ],
+    "chemical": [
+      "Spinosad sprays",
+      "Imidacloprid application",
+      "Acephate sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Sticky traps",
+      "Soap water spray"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Leaf Miner",
+    "problem": "Tunnels inside leaves causing leaf curling",
+    "causes": [
+      "Larvae infestation inside leaves",
+      "Lack of predators",
+      "Warm conditions",
+      "Weak or stressed plants",
+      "Dense planting"
+    ],
+    "chemical": [
+      "Spinosad sprays",
+      "Abamectin application",
+      "Imidacloprid sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Sticky traps",
+      "Hand removal of affected leaves"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Armyworm",
+    "problem": "Leaves and stems eaten, severe defoliation",
+    "causes": [
+      "Caterpillar infestation",
+      "Warm, humid conditions",
+      "Dense planting",
+      "Weed presence",
+      "Lack of predators"
+    ],
+    "chemical": [
+      "Chlorantraniliprole sprays",
+      "Spinosad application",
+      "Carbaryl sprays"
+    ],
+    "organic": [
+      "Neem oil sprays",
+      "Hand-picking larvae",
+      "Bacillus thuringiensis (Bt) sprays"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Grasshopper",
+    "problem": "Chewed leaves and stems causing stunted growth",
+    "causes": [
+      "Warm, dry conditions",
+      "Dense weed growth",
+      "Lack of predators",
+      "Weak plants",
+      "Open field exposure"
+    ],
+    "chemical": [
+      "Carbaryl application",
+      "Malathion sprays",
+      "Fenitrothion application"
+    ],
+    "organic": [
+      "Neem oil",
+      "Manual collection",
+      "Bird attraction methods"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Scale Insects",
+    "problem": "Small, round insects on stems and leaves, sticky honeydew",
+    "causes": [
+      "Warm, humid conditions",
+      "Infestation from nearby plants",
+      "Weak plants",
+      "Over-fertilization",
+      "Poor air circulation"
+    ],
+    "chemical": [
+      "Imidacloprid sprays",
+      "Malathion application",
+      "Carbaryl sprays"
+    ],
+    "organic": [
+      "Neem oil",
+      "Soap water spray",
+      "Predatory insects release"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Calcium Deficiency",
+    "problem": "Tip burn in leaves, blossom-end rot in fruits",
+    "causes": [
+      "Low calcium in soil",
+      "Excessive nitrogen",
+      "Poor root development",
+      "Water stress",
+      "Acidic soil"
+    ],
+    "chemical": [
+      "Calcium nitrate application",
+      "Gypsum soil amendment",
+      "Foliar calcium sprays"
+    ],
+    "organic": [
+      "Eggshell powder",
+      "Compost addition",
+      "Bone meal"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Zinc Deficiency",
+    "problem": "Stunted growth, small leaves with chlorotic stripes",
+    "causes": [
+      "Low zinc in soil",
+      "High soil pH",
+      "Excess phosphorus",
+      "Sandy soils",
+      "Continuous cropping"
+    ],
+    "chemical": [
+      "Zinc sulfate sprays",
+      "Zinc chelate foliar sprays",
+      "Zinc oxide application"
+    ],
+    "organic": [
+      "Compost enriched with zinc",
+      "Seaweed extract",
+      "Green manure"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Manganese Deficiency",
+    "problem": "Interveinal chlorosis on young leaves, brown spots",
+    "causes": [
+      "Low manganese in soil",
+      "High soil pH",
+      "Excess iron or calcium",
+      "Poor organic matter",
+      "Waterlogged soils"
+    ],
+    "chemical": [
+      "Manganese sulfate application",
+      "Foliar manganese sprays",
+      "Chelated manganese sprays"
+    ],
+    "organic": [
+      "Compost addition",
+      "Green manure",
+      "Seaweed extract"
+    ]
+  },
+  {
+    "category": "deficiency",
+    "title": "Sulfur Deficiency",
+    "problem": "Yellowing of young leaves, delayed maturity",
+    "causes": [
+      "Low sulfur in soil",
+      "Excessive rainfall",
+      "Sandy soil leaching",
+      "Lack of organic matter",
+      "Continuous cropping"
+    ],
+    "chemical": [
+      "Gypsum application",
+      "Ammonium sulfate",
+      "Sulfur sprays"
+    ],
+    "organic": [
+      "Compost addition",
+      "Green manure",
+      "Elemental sulfur"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Grey Mold",
+    "problem": "Grey fuzzy mold on leaves, flowers, and fruits",
+    "causes": [
+      "Botrytis cinerea infection",
+      "Cool and wet conditions",
+      "Poor ventilation",
+      "Overhead irrigation",
+      "Infected plant debris"
+    ],
+    "chemical": [
+      "Fenhexamid sprays",
+      "Mancozeb application",
+      "Thiophanate-methyl"
+    ],
+    "organic": [
+      "Neem oil spray",
+      "Baking soda solution",
+      "Garlic extract"
+    ]
+  },
+  {
+    "category": "disease",
+    "title": "Clubroot",
+    "problem": "Swollen, deformed roots, stunted growth",
+    "causes": [
+      "Plasmodiophora brassicae infection",
+      "Acidic soil",
+      "Poor drainage",
+      "Continuous brassica cropping",
+      "Cool soil temperatures"
+    ],
+    "chemical": [
+      "Fumigation in severe cases",
+      "Calcium-based fungicides",
+      "Copper fungicide soil drench"
+    ],
+    "organic": [
+      "Lime application to soil",
+      "Crop rotation",
+      "Compost addition"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Cutworm",
+    "problem": "Seedlings cut at soil level during night",
+    "causes": [
+      "Larvae feeding at night",
+      "Dense weeds and debris",
+      "Overwatering",
+      "Weak seedlings",
+      "Lack of natural predators"
+    ],
+    "chemical": [
+      "Carbaryl dusting",
+      "Chlorpyrifos application",
+      "Diazinon sprays"
+    ],
+    "organic": [
+      "Hand-picking larvae",
+      "Neem seed powder",
+      "Beneficial nematodes"
+    ]
+  },
+  {
+    "category": "pest",
+    "title": "Root-Knot Nematode",
+    "problem": "Galls on roots, stunted plant growth",
+    "causes": [
+      "Meloidogyne species infestation",
+      "Warm soil conditions",
+      "Poor crop rotation",
+      "Weak plants",
+      "Infested soil"
+    ],
+    "chemical": [
+      "Fumigants (like Carbofuran)",
+      "Aldicarb application",
+      "Ethoprophos soil treatment"
+    ],
+    "organic": [
+      "Neem cake soil amendment",
+      "Marigold crop rotation",
+      "Organic compost addition"
+    ]
+  }
+]

@@ -1,0 +1,175 @@
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(50, 191, 106, 0.507);
+  position: relative;
+  padding: 20px;
+}
+
+.loginContainer {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e1e8e4;
+}
+
+.loginContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A, #CDDC39);
+}
+
+.loginContainer h2 {
+  color: #2E7D32;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.loginContainer h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  border-radius: 3px;
+}
+
+.loginContainer h2:hover::after {
+  width: 100px;
+  background: linear-gradient(90deg, rgb(2, 124, 22), #4bcd85);
+}
+
+.formGroup {
+  margin-bottom: 22px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  color: #455A64;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d1e7dd;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f8f9fa;
+  transition: all 0.3s;
+}
+
+.formGroup input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+  outline: none;
+  background-color: white;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.submitBtn:hover {
+  background: linear-gradient(135deg, #43A047, #1B5E20);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+}
+
+.homeLink {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.homeLink a {
+  color: #2E7D32;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.homeLink a:hover {
+  color: #1B5E20;
+  text-decoration: underline;
+}
+
+.leafDecoration {
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  font-size: 120px;
+  color: #4CAF50;
+}
+
+.leaf1 {
+  top: -30px;
+  right: -30px;
+  transform: rotate(30deg);
+}
+
+.leaf2 {
+  bottom: -40px;
+  left: -40px;
+  font-size: 150px;
+  color: #8BC34A;
+  transform: rotate(-15deg);
+}
+
+.roleIcon {
+  margin-right: 8px;
+}
+
+.registerLink {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.registerLink a {
+    color: var(--primary-green);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.registerLink a:hover {
+    color: var(--dark-green);
+    text-decoration: underline;
+}

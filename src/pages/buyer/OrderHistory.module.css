@@ -1,0 +1,142 @@
+.orderPage {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+.orderTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orderTable th,
+.orderTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.orderTable th {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.orderTable th i {
+  margin-right: 8px;
+}
+
+.reorderBtn {
+  background: #a8e6cf;
+  color: #1b5e20;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reorderBtn:hover {
+  background: #88d4ab;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  gap: 4px;
+}
+
+.delivered {
+  background: #c5e1a5;
+  color: #33691e;
+}
+
+.processing {
+  background: #fff59d;
+  color: #f57f17;
+}
+
+.cancelled {
+  background: #ef9a9a;
+  color: #b71c1c;
+}
+
+.productCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.wheat {
+  background: #8bc34a;
+}
+
+.rice {
+  background: #9ccc65;
+}
+
+.gram {
+  background: #aed581;
+}
+
+.mobileHidden {
+  display: table-cell;
+}
+
+@media (max-width: 600px) {
+  .orderTable th,
+  .orderTable td {
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+
+  .reorderBtn span {
+    display: none;
+  }
+
+  .reorderBtn {
+    padding: 8px;
+  }
+}
